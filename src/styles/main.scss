@@ -19,6 +19,7 @@ body {
   align-items: center;
   padding: 10px;
   width: $columns * $day-size + ($columns - 1) * $day-gap;
+  box-sizing: border-box;
 
   @for $nr from 28 through 31 {
     &--month-length-#{$nr} {
